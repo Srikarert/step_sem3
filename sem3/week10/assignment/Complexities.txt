@@ -1,0 +1,5 @@
+AttendanceSummary: O(n) time, O(1) extra space; both results are calculated in one pass.
+SecondHighest: O(n) time, O(1) extra space; sorting first would take O(n log n) time.
+BusiestRow: O(r * c) time, O(1) extra space.
+RotateRoster: O(n) time, O(n) extra space; rotating one place at a time k times can take O(n * k), even when k is much larger than n.
+CountInBand: O(log n) time, O(1) extra space using two binary searches; scanning would take O(n) per query.
